@@ -15,7 +15,6 @@ doc = true
 
 [dependencies]
 better-panic = "0.3.0"
-color = { version = "0.0.2", path = "vendor/color" }
 clap = { version = "4.4.5", features = ["std", "color", "help", "usage", "error-context", "suggestions", "derive", "cargo", "wrap_help", "unicode", "string", "unstable-styles"] }
 color-eyre = "0.6.2"
 config = "0.13.3"
