@@ -1332,8 +1332,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "solarized"
-version = "0.0.2"
+name = "solarized_rs"
+version = "0.0.3"
 dependencies = [
  "better-panic",
  "clap",
