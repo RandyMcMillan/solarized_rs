@@ -159,7 +159,7 @@ checksum = "fe834bc780604f4674073badbad26d7219cadfb4a2275802db12cbae17498401"
 
 [[package]]
 name = "solarized_rs"
-version = "0.1.0"
+version = "0.0.1"
 dependencies = [
  "color",
 ]
