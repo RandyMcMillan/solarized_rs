@@ -4,3 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+color = { version = "0.0.2", path = "vendor/color" }
