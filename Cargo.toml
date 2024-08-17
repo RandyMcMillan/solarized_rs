@@ -1,6 +1,6 @@
 [package]
 name = "solarized_rs"
-version = "0.0.3"
+version = "0.0.4"
 edition = "2021"
 description = "solarized async-template"
 repository = "https://github.com/randymcmillan/solarized_rs"
