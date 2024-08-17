@@ -177,8 +177,8 @@ impl Component for Home {
       Paragraph::new(text)
         .block(
           Block::default()
-            .title("ratatui async template")
-            .title_alignment(Alignment::Center)
+            .title("─── gnostr ─")
+            .title_alignment(Alignment::Left)
             .borders(Borders::ALL)
             .border_style(match self.mode {
               Mode::Processing => Style::default().fg(Color::Yellow),
@@ -186,7 +186,7 @@ impl Component for Home {
             })
             .border_type(BorderType::Rounded),
         )
-        .style(Style::default().fg(Color::Cyan))
+        .style(Style::default().fg(Color::Reset))
         .alignment(Alignment::Center),
       rects[0],
     );
