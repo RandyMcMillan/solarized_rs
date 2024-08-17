@@ -1,6 +1,10 @@
 /target
 
+
 ## vendor/color
+vendor/color/Cargo.lock
+vendor/color/target/
+## vendor/*
 vendor/angle/
 vendor/autocfg/
 vendor/fuchsia-cprng/
