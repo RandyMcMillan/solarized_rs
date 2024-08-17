@@ -30,7 +30,7 @@ cargo-build:### 	cargo build
 cargo-i:cargo-install
 cargo-install:### 	cargo install --path jj
 	@. $(HOME)/.cargo/env
-	@cargo install --path . $(FORCE)
+	@cargo build --release $(FORCE)
 	@cargo install --path solarized $(FORCE)
 cargo-br:cargo-build-release### 	cargo-br
 ## 	cargo-br q=true
